@@ -29,7 +29,11 @@ public class FirstTask {
         System.out.println(res);
     }
 
+<<<<<<< HEAD
     static void numbersDividedBy9(){
+=======
+    public static void numbersDividedBy9(){
+>>>>>>> origin/first-task
         int count = 0;
         List<Integer> numbersDividedBy9 = new ArrayList<>();
         while (count < 50){
@@ -41,7 +45,11 @@ public class FirstTask {
         System.out.println("" + numbersDividedBy9);
     }
 
+<<<<<<< HEAD
     static void factorial(int num){
+=======
+    public static void factorial(int num){
+>>>>>>> origin/first-task
         int result = 1;
         if (num < 0) System.out.println("Num is less than 0");
         else
@@ -50,12 +58,20 @@ public class FirstTask {
         System.out.println("factorial of " + num + " is " + result);
     }
 
+<<<<<<< HEAD
     static void average(String[] numbers){
+=======
+    public static void average(String[] numbers){
+>>>>>>> origin/first-task
         System.out.println("average of 3 first arguments is " + ((Float.parseFloat(numbers[0]) +
                 Float.parseFloat(numbers[1]) + Float.parseFloat(numbers[2])) / 3));
     }
 
+<<<<<<< HEAD
     static void arrayOfElements(String[] args){
+=======
+    public static void arrayOfElements(String[] args){
+>>>>>>> origin/first-task
         Double[] array = new Double[]{0.0,0.0,0.0,0.0,0.0};
         for(int i = 0; i < array.length; i++) {
             System.out.print(args[i]);
@@ -68,7 +84,11 @@ public class FirstTask {
         }
     }
 
+<<<<<<< HEAD
     static void main(String[] args){
+=======
+    public static void main(String[] args){
+>>>>>>> origin/first-task
         try {
             float num = Float.parseFloat(args[0]);
             boolean expr = num % 2.0 == 0;
