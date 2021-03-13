@@ -29,11 +29,7 @@ public class FirstTask {
         System.out.println(res);
     }
 
-<<<<<<< HEAD
     static void numbersDividedBy9(){
-=======
-    public static void numbersDividedBy9(){
->>>>>>> origin/first-task
         int count = 0;
         List<Integer> numbersDividedBy9 = new ArrayList<>();
         while (count < 50){
@@ -45,11 +41,7 @@ public class FirstTask {
         System.out.println("" + numbersDividedBy9);
     }
 
-<<<<<<< HEAD
     static void factorial(int num){
-=======
-    public static void factorial(int num){
->>>>>>> origin/first-task
         int result = 1;
         if (num < 0) System.out.println("Num is less than 0");
         else
@@ -58,37 +50,25 @@ public class FirstTask {
         System.out.println("factorial of " + num + " is " + result);
     }
 
-<<<<<<< HEAD
     static void average(String[] numbers){
-=======
-    public static void average(String[] numbers){
->>>>>>> origin/first-task
         System.out.println("average of 3 first arguments is " + ((Float.parseFloat(numbers[0]) +
                 Float.parseFloat(numbers[1]) + Float.parseFloat(numbers[2])) / 3));
     }
 
-<<<<<<< HEAD
     static void arrayOfElements(String[] args){
-=======
-    public static void arrayOfElements(String[] args){
->>>>>>> origin/first-task
         Double[] array = new Double[]{0.0,0.0,0.0,0.0,0.0};
         for(int i = 0; i < array.length; i++) {
             System.out.print(args[i]);
             array[i] = Double.parseDouble(args[i]);
             String evenOrNot = array[i] % 2 == 0 ? "even" : "not even";
             String divByIndOrNot = i == 0 ? "division by 0" :
-                                            array[i] % i == 0 ? "divided by index without the remainder" :
-                                                                "not divided by index without the remainder";
+                    array[i] % i == 0 ? "divided by index without the remainder" :
+                            "not divided by index without the remainder";
             System.out.println(" is " + evenOrNot + " and " + divByIndOrNot);
         }
     }
 
-<<<<<<< HEAD
     static void main(String[] args){
-=======
-    public static void main(String[] args){
->>>>>>> origin/first-task
         try {
             float num = Float.parseFloat(args[0]);
             boolean expr = num % 2.0 == 0;
@@ -100,7 +80,7 @@ public class FirstTask {
                 average(args);
                 arrayOfElements(args);
             } catch (IndexOutOfBoundsException e){
-               System.out.println("please ensure you input correct number of arguments");
+                System.out.println("please ensure you input correct number of arguments");
             }
         } catch(NumberFormatException e){
             System.out.println("please make sure that you pass a number as an argument");
